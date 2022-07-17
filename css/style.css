@@ -1,0 +1,31 @@
+/********** FONTS **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+/********** GLOBAL **********/
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/********** UTILITY **********/
+@import './utility/typography.css';
+@import './utility/colors.css';
+@import './utility/components.css';
+
+/********** HOME **********/
+@import './home/intro.css';
+@import './home/technology.css';
+@import './home/partners.css';
+@import './home/testimony.css';
+
+/********** BIKES **********/
+@import './bikes/bikes-list.css';
+@import './bikes/bikes.css';
+
+/********** INSURANCE **********/
+@import './insurance/insurance.css';
+@import './insurance/benefits.css';
+@import './insurance/questions.css';
+
+/********** TERMS **********/
+@import './terms/terms.css';
