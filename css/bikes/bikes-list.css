@@ -7,6 +7,10 @@
   margin-bottom: 40px;
 }
 
+#bike .bikes-list ul {
+  padding: 0 0 20px 0;
+}
+
 .bikes-list ul {
   display: flex;
   gap: 40px;

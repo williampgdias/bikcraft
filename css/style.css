@@ -22,6 +22,9 @@
 @import './bikes/bikes-list.css';
 @import './bikes/bikes.css';
 
+/********** SINGLE BIKE **********/
+@import './bike/bike.css';
+
 /********** INSURANCE **********/
 @import './insurance/insurance.css';
 @import './insurance/benefits.css';
