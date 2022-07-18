@@ -24,6 +24,7 @@
 
 /********** SINGLE BIKE **********/
 @import './bike/bike.css';
+@import './bike/insurance-bike.css';
 
 /********** INSURANCE **********/
 @import './insurance/insurance.css';
