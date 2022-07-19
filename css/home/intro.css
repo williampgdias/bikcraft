@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
+  background: url('../../img/dec/bottom-left.svg') no-repeat bottom 135px left 20px;
 }
 
 .intro-content {

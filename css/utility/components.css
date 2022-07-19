@@ -17,6 +17,8 @@
   color: var(color-p5);
   font: 600 1.125rem / 1.35 'Poppins', sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -81,7 +83,12 @@
 /******************** INTERNAL TITLE ********************/
 .title-bg {
   background-color: var(--color-11);
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.title {
+  background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 .title p {
@@ -90,7 +97,8 @@
 
 @media (max-width: 800px) {
   .title-bg {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .title p {
     font-size: 1rem;

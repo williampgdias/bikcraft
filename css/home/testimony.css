@@ -15,6 +15,7 @@
 .testimony-content {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 40px right 40px;
 }
 
 .testimony-content p {
@@ -43,6 +44,12 @@
   content: '”';
 }
 
+@media (min-width: 1200px) {
+  .testimony img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .testimony {
     grid-template-columns: 1fr;
@@ -54,5 +61,6 @@
   .testimony-content {
     padding: 40px 20px;
     justify-self: center;
+    background: none;
   }
 }
