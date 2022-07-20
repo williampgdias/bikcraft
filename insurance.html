@@ -46,7 +46,7 @@
 
 
     <div class="insurance container">
-      <div class="insurance-item">
+      <div class="insurance-item fadeInLeft" data-anime="300">
         <h3 class="font-1-xl color-6">SILVER</h3>
         <span class="font-1-xl color-0">€199 <span class="font-1-xs color-6">month</span></span>
         <ul class="font-2-m color-0">
@@ -55,10 +55,10 @@
           <li>Support 8am to 6pm</li>
           <li>State coverage</li>
         </ul>
-        <a class="button secondary" href="./budget.html">Sign up</a>
+        <a class="button secondary" href="./budget.html?type=insurance&product=silver">Sign up</a>
       </div>
 
-      <div class="insurance-item">
+      <div class="insurance-item fadeInRight" data-anime="600">
         <h3 class="font-1-xl color-p1">GOLD</h3>
         <span class="font-1-xl color-0">€299 <span class="font-1-xs color-6">month</span></span>
         <ul class="font-2-m color-0">
@@ -69,7 +69,7 @@
           <li>Partner discount.</li>
           <li>Access to the Bikcraft Club.</li>
         </ul>
-        <a class="button" href="./budget.html">Sign up</a>
+        <a class="button" href="./budget.html?type=insurance&product=gold">Sign up</a>
       </div>
     </div>
   </main>
@@ -122,28 +122,28 @@
 
     <dl>
       <div>
-        <dt class="font-1-m-b">What form of payment do you accept?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question1" aria-expanded="true">What form of payment do you accept?</button></dt>
+        <dd id="question1" class="font-2-s color-9 active">We accept instalment payments on all credit cards.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b">How can I get in touch?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question2" aria-expanded="false">How can I get in touch?</button></dt>
+        <dd id="question2" class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b">Do you have any discount?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question3" aria-expanded="false">Do you have any discount?</button></dt>
+        <dd id="question3" class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b">What guarantee do I have?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question4" aria-expanded="false">What guarantee do I have?</dt>
+        <dd id="question4" class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b">Can I pay in instalments?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question5" aria-expanded="false">Can I pay in instalments?</dt>
+        <dd id="question5" class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b">How many exchanges can I do per year?</dt>
-        <dd class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
+        <dt><button class="font-1-m-b" aria-controls="question6" aria-expanded="false">How many exchanges can I do per year?</dt>
+        <dd id="question6" class="font-2-s color-9">We accept instalment payments on all credit cards.</dd>
       </div>
 
     </dl>
@@ -190,6 +190,8 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

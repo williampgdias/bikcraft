@@ -12,6 +12,7 @@
 @import './utility/colors.css';
 @import './utility/components.css';
 @import './utility/form.css';
+@import './utility/animation.css';
 
 /********** HOME **********/
 @import './home/intro.css';
